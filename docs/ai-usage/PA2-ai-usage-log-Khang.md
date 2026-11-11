@@ -26,6 +26,7 @@
 | 12 | Khang | Claude | Insert Figures 8.4–8.15 into §8 of the PA2 docx, unify image sizes and link the Mockup column to each figure |
 | 13 | Khang | Claude (Penpot MCP) | Re-check the mockups against the PA2 version of 11/11/2026 and update them: court location "Khu A/Khu B", court status on the daily schedule, closed slots after an opening-hours change, review notes removed |
 | 14 | Khang | Claude (Penpot MCP) | Draw the new states required by the baseline: registration success (UC-01), last-Admin role error (BR-39, AC-06.14), walk-in booking in the Admin sidebar; export §8 as a separate file |
+| 15 | Khang | Claude (Penpot MCP) | Basic accessibility check of the mockups (contrast, labels, keyboard use) and a keyboard-focus example board for §8 |
 
 ---
 
@@ -353,6 +354,20 @@
 
 ---
 
+## PHIÊN 19 (11/11/2026): Kiểm tra accessibility cơ bản cho §8
+
+### MỤC ĐÍCH
+- Template §8 yêu cầu "Check basic accessibility: contrast, labels, keyboard use"; file §8 còn thiếu phần này.
+
+### KẾT QUẢ ĐẠT ĐƯỢC
+- Đo độ tương phản trên ảnh mockup: mọi cặp chữ/nền đạt ≥ 4.5:1 (thấp nhất 4.8:1, chữ xám #6B7280 trên nền trắng); trạng thái luôn có chữ đi kèm, không chỉ dựa vào màu.
+- Rà nhãn từng màn: tìm ra 2 việc cho PA3 (nút chỉ có biểu tượng cần tên ẩn; ô ngày lễ SCR-11 chỉ có placeholder).
+- Vẽ board "SCR-05 – focus bàn phím": thứ tự Tab 1–8, viền focus 3 px, chú thích phím Enter/Esc/mũi tên.
+- Thêm kết quả kiểm tra (đoạn "Accessibility check" + bảng Check / Result / Action for PA3) ngay dưới bảng màn hình trong §8, không tạo mục mới, theo góp ý của thầy; thêm Figure 8.16 và link Figure 8.16 ở dòng SCR-05.
+- **File kết quả:** `PA2 - 08 - Muc 8 Prototype-Mockups.docx`, `PA2-8-mockups/Figure-8.16_SCR-05_Focus-ban-phim.png`
+
+---
+
 ## CÁCH KIỂM CHỨNG OUTPUT CỦA AI
 - Mọi nhận xét đều dẫn tới ID cụ thể (AC/FR/BR/NFR) để đối chiếu trực tiếp trong file docx.
 - Ngày trong tuần và các số tiền được AI kiểm tra bằng script tính lại, không ước lượng.
@@ -368,3 +383,4 @@
 - Mockup: AI xuất từng board thành ảnh để xem lại, sửa các chỗ chữ tràn hoặc đè nhau; giá và câu thông báo trên mockup được đối chiếu với BR và AC.
 - §8 trong docx: AI so phần trước và sau §8 với file gốc (trùng khớp hoàn toàn), chạy kiểm tra cấu trúc file và xuất PDF để xem bố cục các trang hình.
 - Bản cập nhật 11/11: AI so văn bản PA2 giữa hai phiên bản Drive để biết chỗ nào đã sửa; ảnh trong file §8 được khớp với board Penpot bằng so sánh điểm ảnh trước khi thay, rồi xuất PDF để xem lại bố cục.
+- Accessibility: tỉ lệ tương phản được tính bằng script theo công thức WCAG từ màu lấy trực tiếp trên ảnh xuất, không ước lượng bằng mắt.
