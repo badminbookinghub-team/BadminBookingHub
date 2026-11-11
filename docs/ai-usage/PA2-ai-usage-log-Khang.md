@@ -19,13 +19,13 @@
 | 5 | Khang | Claude | Draft use case specifications for UC-22 and UC-23 following the lecture structure |
 | 6 | Khang | Claude | Check Hiếu's review of UC-22/UC-23 and make the remaining consistency fixes |
 | 7 | Khang | Claude | Review the use case diagram (§6.1) against the use case list, specifications and FRs, then re-check Phúc's revised diagram |
-| 12 | Khang | Claude | Review Hiếu's use case specifications UC-17 to UC-21 against FRs, BRs, ACs and the team's writing conventions |
-| 13 | Khang | Claude (Penpot MCP) | Draw the §8 mockups in Penpot: 15 screens, component library, clickable prototype, review notes on unresolved requirements |
-| 14 | Khang | Claude | Export mockup images and list the 12 open requirement issues found while drawing, for the team review |
-| 15 | Khang | Claude (Penpot MCP) | Add desktop versions of the remaining Player screens |
-| 16 | Khang | Claude | Insert Figures 8.4–8.15 into §8 of the PA2 docx, unify image sizes and link the Mockup column to each figure |
-| 17 | Khang | Claude (Penpot MCP) | Re-check the mockups against the PA2 version of 11/11/2026 and update them: court location "Khu A/Khu B", court status on the daily schedule, closed slots after an opening-hours change, review notes removed |
-| 18 | Khang | Claude (Penpot MCP) | Draw the new states required by the baseline: registration success (UC-01), last-Admin role error (BR-39, AC-06.14), walk-in booking in the Admin sidebar; export §8 as a separate file |
+| 8 | Khang | Claude | Review Hiếu's use case specifications UC-17 to UC-21 against FRs, BRs, ACs and the team's writing conventions |
+| 9 | Khang | Claude (Penpot MCP) | Draw the §8 mockups in Penpot: 15 screens, component library, clickable prototype, review notes on unresolved requirements |
+| 10 | Khang | Claude | Export mockup images and list the 12 open requirement issues found while drawing, for the team review |
+| 11 | Khang | Claude (Penpot MCP) | Add desktop versions of the remaining Player screens |
+| 12 | Khang | Claude | Insert Figures 8.4–8.15 into §8 of the PA2 docx, unify image sizes and link the Mockup column to each figure |
+| 13 | Khang | Claude (Penpot MCP) | Re-check the mockups against the PA2 version of 11/11/2026 and update them: court location "Khu A/Khu B", court status on the daily schedule, closed slots after an opening-hours change, review notes removed |
+| 14 | Khang | Claude (Penpot MCP) | Draw the new states required by the baseline: registration success (UC-01), last-Admin role error (BR-39, AC-06.14), walk-in booking in the Admin sidebar; export §8 as a separate file |
 
 ---
 
